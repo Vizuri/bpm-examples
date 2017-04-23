@@ -3,5 +3,7 @@ import java.lang.Number;
 rule "guided-rule"
 	dialect "mvel"
 	when
+		exists (Number( )) 
 	then
+		insert( new Number() );
 end
