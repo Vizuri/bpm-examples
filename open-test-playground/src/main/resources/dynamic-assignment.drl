@@ -1,0 +1,43 @@
+import com.redhat.Assignment;
+import com.redhat.FormEvent;
+
+rule "Create assignment"
+    agenda-group "assignment"
+when 
+    not Assignment ( )
+then
+    insert (new Assignment( ) );
+end
+
+rule "Dynamic assignment name one"
+    agenda-group "assignment"
+when
+    FormEvent ( source == "one" )
+    $assignment : Assignment ( name == null )
+then
+    modify ($assignment) {
+        setName (  "dev1" )
+    }
+end
+
+rule "Dynamic assignment name two"
+    agenda-group "assignment"
+when
+    FormEvent ( source == "two" )
+    $assignment : Assignment ( name == null )
+then
+    modify ($assignment) {
+        setName (  "dev2" )
+    }
+end
+
+rule "Dynamic assignment role"
+    agenda-group "assignment"
+when 
+    FormEvent ( severity > 5 )
+    $assignment : Assignment ( name == null )
+then
+    modify ($assignment) {
+        setRole (  "reviewers" )
+    }
+end
