@@ -2,7 +2,7 @@ import com.redhat.Assignment;
 import com.redhat.FormEvent;
 
 rule "Create assignment"
-    agenda-group "assignment"
+    ruleflow-group "assignment"
 when 
     not Assignment ( )
 then
@@ -10,7 +10,7 @@ then
 end
 
 rule "Dynamic assignment name one"
-    agenda-group "assignment"
+    ruleflow-group "assignment"
 when
     FormEvent ( source == "one" )
     $assignment : Assignment ( name == null )
@@ -21,7 +21,7 @@ then
 end
 
 rule "Dynamic assignment name two"
-    agenda-group "assignment"
+    ruleflow-group "assignment"
 when
     FormEvent ( source == "two" )
     $assignment : Assignment ( name == null )
@@ -32,7 +32,7 @@ then
 end
 
 rule "Dynamic assignment role"
-    agenda-group "assignment"
+    ruleflow-group "assignment"
 when 
     FormEvent ( severity > 5 )
     $assignment : Assignment ( name == null )
