@@ -1,0 +1,44 @@
+
+<form id="388399122">
+<property name="name" value="open-test-playground.dummy-process-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="assignment_role" type="InputText" id="975790507">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;role (assignment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="assignment/role"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="approved" type="CheckBox" id="1036172293">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approved (approved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="approved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="event_severity" type="InputTextInteger" id="1401525427">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;severity (event)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="event/severity"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="assignment_name" type="InputText" id="468303940">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (assignment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="assignment/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="event_source" type="InputText" id="559355832">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;source (event)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="event/source"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="approved" value="java.lang.Boolean" id="approved"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="assignment" value="com.redhat.Assignment" id="assignment"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="event" value="com.redhat.FormEvent" id="event"/>
+</form>
