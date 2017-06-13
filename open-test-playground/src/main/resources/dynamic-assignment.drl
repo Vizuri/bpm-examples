@@ -6,6 +6,7 @@ rule "Create assignment"
 when 
     not Assignment ( )
 then
+    System.err.println("Creating assignment!");
     insert (new Assignment( ) );
 end
 
@@ -15,6 +16,7 @@ when
     FormEvent ( source == "one" )
     $assignment : Assignment ( name == null )
 then
+    System.err.println("Setting name to dev1");
     modify ($assignment) {
         setName (  "dev1" )
     }
@@ -26,6 +28,7 @@ when
     FormEvent ( source == "two" )
     $assignment : Assignment ( name == null )
 then
+    System.err.println("Setting name to dev2");
     modify ($assignment) {
         setName (  "dev2" )
     }
@@ -37,6 +40,7 @@ when
     FormEvent ( severity > 5 )
     $assignment : Assignment ( name == null )
 then
+    System.err.println("Setting role to reviewers");
     modify ($assignment) {
         setRole (  "reviewers" )
     }
