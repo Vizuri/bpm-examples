@@ -3,13 +3,6 @@
 <property name="name" value="open-test-playground.dummy-process-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="2" name="assignment_role" type="InputText" id="975790507">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;role (assignment)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="assignment/role"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <field position="0" name="approved" type="CheckBox" id="1036172293">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;approved (approved)quot;"/>
@@ -17,21 +10,14 @@
 <property name="outputBinding" value="approved"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="3" name="event_severity" type="InputTextInteger" id="1401525427">
+<field position="1" name="event_severity" type="InputTextInteger" id="1401525427">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;severity (event)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="event/severity"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="assignment_name" type="InputText" id="468303940">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (assignment)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="assignment/name"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="event_source" type="InputText" id="559355832">
+<field position="2" name="event_source" type="InputText" id="559355832">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;source (event)quot;"/>
 <property name="readonly" value="false"/>
