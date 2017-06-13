@@ -38,7 +38,7 @@ rule "Dynamic assignment role"
     agenda-group "assignment"
 when 
     FormEvent ( severity > 5 )
-    $assignment : Assignment ( name == null )
+    $assignment : Assignment ( role == null )
 then
     System.err.println("Setting role to reviewers");
     modify ($assignment) {
