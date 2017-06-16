@@ -71,4 +71,12 @@ public class Widget implements java.io.Serializable
       this.yearBuilt = yearBuilt;
    }
 
+@Override
+public String toString() {
+	return "Widget [name=" + name + ", count=" + count + ", description=" + description + ", yearBuilt=" + yearBuilt
+			+ "]";
+}
+   
+   
+
 }
