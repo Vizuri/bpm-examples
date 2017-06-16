@@ -11,8 +11,8 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="widget_name"/>
-<property name="outputBinding" value="widgetnew_name"/>
+<property name="inputBinding" value="widget/name"/>
+<property name="outputBinding" value="widgetnew/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="widget_description" type="InputText" id="1800268946">
