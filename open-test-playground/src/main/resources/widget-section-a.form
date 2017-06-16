@@ -12,7 +12,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="widget/name"/>
-<property name="outputBinding" value="widgetreq/name"/>
+<property name="outputBinding" value="widgetnew/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="widget_description" type="InputText" id="1800268946">
@@ -24,7 +24,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="widget/description"/>
-<property name="outputBinding" value="widgetreq/description"/>
+<property name="outputBinding" value="widgetnew/description"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="widget" name="#E9E371" type="dataModelerEntry" outId="widgetreq" value="com.Widget" id="widget"/>
