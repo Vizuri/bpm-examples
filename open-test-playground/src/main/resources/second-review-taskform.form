@@ -9,6 +9,8 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="inputBinding" value="widget"/>
+<property name="outputBinding" value="widgetreq"/>
 <property name="defaultSubform" value="widget-basic.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
@@ -18,6 +20,8 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="inputBinding" value="widget"/>
+<property name="outputBinding" value="widgetreq"/>
 <property name="defaultSubform" value="widget-details.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
