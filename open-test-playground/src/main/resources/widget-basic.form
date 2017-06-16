@@ -3,4 +3,21 @@
 <property name="name" value="widget-basic.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="widget_name" type="InputText" id="108308695">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (widget)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="widget/name"/>
+<property name="outputBinding" value="widgetreq/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="widget_description" type="InputText" id="804552453">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;description (widget)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="widget/description"/>
+<property name="outputBinding" value="widgetreq/description"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="widget" name="#E9E371" type="dataModelerEntry" outId="widgetreq" value="com.widget" id="widget"/>
 </form>
