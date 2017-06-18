@@ -44,4 +44,9 @@ public class User implements java.io.Serializable
       this.stateCode = stateCode;
    }
 
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", stateCode=" + stateCode + "]";
+	}
+
 }
