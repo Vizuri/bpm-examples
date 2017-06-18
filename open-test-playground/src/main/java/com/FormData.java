@@ -9,10 +9,13 @@ public class FormData implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "User")
+   @org.kie.api.definition.type.Label("User")
    private com.User user;
-   @org.kie.api.definition.type.Label(value = "Widget")
+   @org.kie.api.definition.type.Label("Widget")
    private com.Widget widget;
+
+   @org.kie.api.definition.type.Label(value = "Show Widget Details")
+   private java.lang.Boolean showWidgetDetails;
 
    public FormData()
    {
@@ -38,10 +41,22 @@ public class FormData implements java.io.Serializable
       this.widget = widget;
    }
 
-   public FormData(com.User user, com.Widget widget)
+   public java.lang.Boolean getShowWidgetDetails()
+   {
+      return this.showWidgetDetails;
+   }
+
+   public void setShowWidgetDetails(java.lang.Boolean showWidgetDetails)
+   {
+      this.showWidgetDetails = showWidgetDetails;
+   }
+
+   public FormData(com.User user, com.Widget widget,
+         java.lang.Boolean showWidgetDetails)
    {
       this.user = user;
       this.widget = widget;
+      this.showWidgetDetails = showWidgetDetails;
    }
 
 }
