@@ -63,7 +63,7 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h1&gt;Widget name: {formData/widget/name}&lt;/h1&gt;
+&lt;h1&gt;Widget name: ${formData/widget/name}&lt;/h1&gt;
 "/>
 <field position="0" name="1598844201" type="Subform" id="1598844201">
 <property name="fieldRequired" value="false"/>
