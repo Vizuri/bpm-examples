@@ -24,15 +24,5 @@
 <property name="defaultSubform" value="widget-section-a.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="2" name="1620616444" type="Subform" id="1620616444">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Widget Detailsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="formData/widget"/>
-<property name="defaultSubform" value="widget-section-b.form"/>
-<property name="fieldClass" value="java.lang.Object"/>
-</field>
 <dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="formData" value="com.FormData" id="formData"/>
 </form>
