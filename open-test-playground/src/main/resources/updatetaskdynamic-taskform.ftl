@@ -4,7 +4,7 @@
 <hr>
 ${task.descriptions[0].text}<br/>
 <br/>
-User:${formData_in.widget.user}<br/> 
+User:${formData_in.user.name}<br/> 
 <br/>
 Please fill in the following evaluation form: 
 <form action="complete" method="POST" enctype="multipart/form-data">
