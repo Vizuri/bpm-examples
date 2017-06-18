@@ -34,5 +34,5 @@
 <property name="defaultSubform" value="widget-section-b.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<dataHolder inputId="formData_in" name="#E9E371" type="dataModelerEntry" outId="formData_out" value="com.FormData" id="formData"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="formData" value="com.FormData" id="formData"/>
 </form>
