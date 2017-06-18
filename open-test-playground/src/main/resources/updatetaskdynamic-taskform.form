@@ -4,66 +4,7 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;1598844201_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{1598844201}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-					&lt;tr&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;1598844201_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{1598844201}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;1650391424_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{1650391424}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-					&lt;tr&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;1650391424_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{1650391424}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;490352290_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{490352290}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-					&lt;tr&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;490352290_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{490352290}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h1&gt;Yo, dynamic yo&lt;/h1&gt;
-"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;1598844201_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{1598844201}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;1598844201_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{1598844201}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;1650391424_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{1650391424}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;1650391424_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{1650391424}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;490352290_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{490352290}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;490352290_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{490352290}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; &lt;h1&gt;Yo, dynamic yo&lt;/h1&gt; "/>
 <field position="0" name="1598844201" type="Subform" id="1598844201">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Userquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
