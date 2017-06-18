@@ -1,6 +1,8 @@
 
 <form id="1983446525">
 <property name="name" value="updatetaskdynamic-taskform.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
+<dataHolder inputId="formData_in" name="#E9E371" type="dataModelerEntry" outId="formData_out" value="com.FormData" id="formData"/>
 </form>
