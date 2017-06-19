@@ -14,8 +14,11 @@ public class FormData implements java.io.Serializable
    @org.kie.api.definition.type.Label("Widget")
    private com.Widget widget;
 
-   @org.kie.api.definition.type.Label(value = "Show Widget Details")
+   @org.kie.api.definition.type.Label("Show Widget Details")
    private java.lang.Boolean showWidgetDetails;
+
+   @org.kie.api.definition.type.Label(value = "Name")
+   private java.lang.String name;
 
    public FormData()
    {
@@ -51,12 +54,23 @@ public class FormData implements java.io.Serializable
       this.showWidgetDetails = showWidgetDetails;
    }
 
+   public java.lang.String getName()
+   {
+      return this.name;
+   }
+
+   public void setName(java.lang.String name)
+   {
+      this.name = name;
+   }
+
    public FormData(com.User user, com.Widget widget,
-         java.lang.Boolean showWidgetDetails)
+         java.lang.Boolean showWidgetDetails, java.lang.String name)
    {
       this.user = user;
       this.widget = widget;
       this.showWidgetDetails = showWidgetDetails;
+      this.name = name;
    }
 
 }
